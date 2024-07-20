@@ -1,0 +1,24 @@
+name: wave_loading_bubble
+description: A package to create customizable animated wave loading bubbles.
+version: 0.0.1
+homepage: https://github.com/soltanzadeh836@gmail.com/wave_loading_bubble
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.erfansoltanzadeh.waveloadingbubble
+      ios:
+        pluginClass: WaveLoadingBubblePlugin
